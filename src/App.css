@@ -1,0 +1,77 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head{
+text-align: center;
+}
+.head .one{
+  background-color: rgb(124, 124, 248);
+  color: white;
+  border-radius: 30px 30px 0 0;
+  text-transform: capitalize;
+}
+#earia{
+  border: 3px solid rgb(124, 124, 248);
+  height: 100%;
+  width: 100%;
+}
+dev{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  
+  height: 50%;
+  width: 50%;
+}
+button{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 3px;
+  margin: 10px 0;
+  background-color: rgb(124, 124, 248);
+  border-radius: 0 0 30px 30px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+span {
+  font-size: 20px;
+  font-weight: 900;
+
+}
+span:focus{
+  background-color: rgb(109, 109, 255);
+  font-size: 18px;
+}
+.stornots{
+  display: flex;
+  border: 1px solid transparent;
+  background-color: rgb(150, 150, 250);
+  height: 100px;
+  width: 200px;
+  margin: 3px;
+  padding: 1px;
+}
+.allstor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+
+
+
+}
+h2{
+  text-decoration: underline;
+  position: relative;
+  left: -120px;
+}
